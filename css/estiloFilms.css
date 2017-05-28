@@ -1,0 +1,100 @@
+header#titulo h1{
+	text-align: center;
+	margin: 15px auto;
+	font-family: "Anton";
+	color: #414239;
+	font-size: 4em;
+}
+
+body {
+	background-color: #CFE9F5;
+}
+
+div img{
+	width:13%;
+	float:left;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+hr {
+  height: 3px;
+  background-color: black;
+}
+
+div p.sinopsis {
+	margin-right:400pt;
+	padding-right: 50pt;
+}
+div b.reparto {
+	padding-right: 100pt;
+}
+
+div ul {
+	float: right;
+}
+
+div iframe {
+	width:360px; 
+	height:250px; 
+	float:right;
+}
+
+div.film {
+	margin-bottom: 50pt;
+}
+
+/*
+div.caja {
+	border: 1pt;
+	border-style: solid;
+	border-color: #cbccc1;
+	padding: 5px;
+	margin: 10pt 150pt;
+}
+
+div#datos header h2 {
+	text-align:center;
+}
+
+p.anio {
+	font-style: italic;
+}
+
+div#espol img{
+	width:33%;
+	float:left;
+	margin-right: 10px;
+}
+
+div#uebcr img{
+	width:33%;
+	float:left;
+	margin-right: 10px;
+}
+
+hr {
+  height: 3px;
+  background-color: black;
+}
+
+li {
+	display: inline-block;
+	text-align: left;
+	margin: 5px 35px;
+	padding: 10pt 0pt;
+	width: 120px;
+	border-radius: 25px;
+	background-color: #E0E0E0;	
+	box-shadow: 10px 10px 10px #ccccff;
+}
+
+b {
+	color: white;
+	position: relative;
+	left: -10px;
+	background-color: blue;
+	border-radius: 25px;
+	padding: 10pt 13pt;
+}
+*/
