@@ -1,0 +1,62 @@
+body {
+	background-image: url("http://st.depositphotos.com/1592123/3777/i/950/depositphotos_37773263-stock-photo-wooden-kitchenware-on-cutting-board.jpg");
+	background-position: top left;
+	background-color: #DBCBAA;
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-attachment: fixed;
+}
+
+div img.receta{
+	width:18%;
+	float:left;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+div#recetas {
+	clear:both;
+}
+
+div.caja {
+	margin: 10pt 400pt;
+	border: 1pt;
+	border-style: solid;
+	border-color: black;
+	padding: 5px;
+}
+
+div#c1 {
+	position: relative;
+	top: 50px;
+	left: -530px;
+}
+
+div#c2 {
+	position: relative;
+	top: -86px;
+	left: -260px;
+}
+
+div#c3 {
+	position: relative;
+	top: -221px;
+	left: 10px;
+}
+
+div#c4 {
+	position: relative;
+	top: -357px;
+	left: 280px;
+}
+
+div#c5 {
+	position: relative;
+	top: -493px;
+	left: 550px;
+}
+
+
+hr.sepreceta {
+  border: 1px dotted; 
+}
