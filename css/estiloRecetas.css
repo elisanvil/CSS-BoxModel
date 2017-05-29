@@ -14,12 +14,10 @@ div img.receta{
 	display: inline-block;
 }
 
-div#recetas {
-	clear:both;
-}
-
 div.caja {
-	margin: 10pt 400pt;
+	margin-left: 400pt;
+	margin-right: 400pt;
+	margin-bottom: -170pt; 
 	border: 1pt;
 	border-style: solid;
 	border-color: black;
@@ -30,30 +28,54 @@ div#c1 {
 	position: relative;
 	top: 50px;
 	left: -530px;
+
+	background-image: url(http://www.sansae.com/wp-content/uploads/2015/12/coctel-de-camarones-a-la-mexicana-sansae--960x760.jpg);
+	background-attachment: fixed;
+	background-size: 40%;
+}
+
+div.caja:hover {
+	opacity: 0.7;
 }
 
 div#c2 {
 	position: relative;
-	top: -86px;
+	top: -18px;
 	left: -260px;
+
+	background-image: url("http://cdn.colombia.com/sdi/2013/03/05/pollo-a-la-naranja-536650.jpg");
+	background-attachment: fixed;
+	background-size: 50%;
 }
 
 div#c3 {
 	position: relative;
-	top: -221px;
+	top: -85px;
 	left: 10px;
+
+	background-image: url("http://img.taste.com.au/kV_SBhAU/w720-h480-cfill-q80/taste/2016/11/tiramisu-with-strawberries-and-coffee-cream-32693-1.jpeg");
+	background-attachment: fixed;
+	background-size: 70%;
 }
 
 div#c4 {
 	position: relative;
-	top: -357px;
+	top: -153px;
 	left: 280px;
+
+	background-image: url("http://blog.kiwilimon.com/wp-content/uploads/2014/12/recetas-de-rompope.jpg");
+	background-attachment: fixed;
+	background-size: 45%;
 }
 
 div#c5 {
 	position: relative;
-	top: -493px;
+	top: -221px;
 	left: 550px;
+
+	background-image: url("https://i.ytimg.com/vi/Oju3HzPpg3E/maxresdefault.jpg");
+	background-attachment: fixed;
+	background-size: 40%;
 }
 
 
