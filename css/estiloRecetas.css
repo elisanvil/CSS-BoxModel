@@ -5,11 +5,18 @@ body {
 	background-repeat: no-repeat;
 	background-size: 60%;
 	background-attachment: fixed;
+	opacity: 0.95;
+}
+
+header#titulo-sitio {
+	font-size: 4em;
+	color: #d39a0a;
+	text-shadow: #bc8609;
 }
 
 div img.receta{
-	width:18%;
-	float:left;
+	width: 19%;
+	float: left;
 	margin-right: 10px;
 	display: inline-block;
 }
@@ -24,7 +31,12 @@ div.caja {
 	padding: 5px;
 }
 
+div#c1 ~ div {
+	border-radius: 20px;
+}
+
 div#c1 {
+	border-radius: 20px;
 	position: relative;
 	top: 50px;
 	left: -530px;
@@ -40,7 +52,7 @@ div.caja:hover {
 
 div#c2 {
 	position: relative;
-	top: -18px;
+	top: -22px;
 	left: -260px;
 
 	background-image: url("http://cdn.colombia.com/sdi/2013/03/05/pollo-a-la-naranja-536650.jpg");
@@ -50,7 +62,7 @@ div#c2 {
 
 div#c3 {
 	position: relative;
-	top: -85px;
+	top: -93px;
 	left: 10px;
 
 	background-image: url("http://img.taste.com.au/kV_SBhAU/w720-h480-cfill-q80/taste/2016/11/tiramisu-with-strawberries-and-coffee-cream-32693-1.jpeg");
@@ -60,7 +72,7 @@ div#c3 {
 
 div#c4 {
 	position: relative;
-	top: -153px;
+	top: -165px;
 	left: 280px;
 
 	background-image: url("http://blog.kiwilimon.com/wp-content/uploads/2014/12/recetas-de-rompope.jpg");
@@ -70,7 +82,7 @@ div#c4 {
 
 div#c5 {
 	position: relative;
-	top: -221px;
+	top: -238px;
 	left: 550px;
 
 	background-image: url("https://i.ytimg.com/vi/Oju3HzPpg3E/maxresdefault.jpg");
@@ -78,7 +90,35 @@ div#c5 {
 	background-size: 40%;
 }
 
+div h3 a:link {
+	font-variant: small-caps;
+	color: #db990a;
+}
+
+div h3 a:hover{
+	text-decoration: none;
+	color: #edc163;
+	
+}
+
+div h3 a:visited {
+	color: #7c652e;
+}
+
+div.caja b {
+	color: #d69f2a;
+}
+
+div.caja p {
+	padding: 2px; 
+}
+
 
 hr.sepreceta {
-  border: 1px dotted; 
+  border: 1px dotted;
+  color: #e0d2b1;
+}
+
+div p.detalle {
+	padding: 5px;
 }
